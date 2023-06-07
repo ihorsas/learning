@@ -1,0 +1,66 @@
+Task 1: Given a list of strings, create a program that filters out the strings starting with a specific letter and converts the remaining strings to uppercase.
+Requirements:
+Use the Stream API to filter and transform the strings.
+Implement the solution using both intermediate and terminal operations of the Stream API.
+Test your program with different input lists and letters.
+
+Task2: Given a list of integers, write a program to find the average of the squares of even numbers.
+Requirements:
+Use the Stream API to filter out the even numbers.
+Square each even number.
+Calculate the average of the squared even numbers.
+Test your program with different input lists of integers.
+
+Task 3: Implement a program that reads a text file and counts the occurrences of each word, ignoring case sensitivity and punctuation.
+Requirements:
+Use the Stream API to read the file, split the text into words, and count their occurrences.
+Remove punctuation marks (e.g., periods, commas, question marks) from the words.
+Ignore case sensitivity while counting occurrences.
+Display the word count for each unique word.
+Test your program with different text files.
+
+Task 4: Given a list of strings, write a program to group the strings by their lengths into a Map.
+Requirements:
+Use the Stream API to group the strings based on their lengths.
+Create a Map where the keys represent the string lengths and the values are lists of strings with the corresponding lengths.
+Test your program with different input lists of strings.
+
+Task 5: Develop a program that finds the two longest words from a list of strings, using the Stream API.
+Requirements:
+Use the Stream API to find the two longest words in the list.
+Handle cases where there are multiple words with the same maximum length.
+Display the two longest words.
+Test your program with different input lists of strings.
+
+Task 6: Given a list of integers, write a program to find the maximum value in the list using the Stream API and Optional.
+Requirements:
+Use the Stream API to process the list of integers.
+Use the reduce operation to find the maximum value.
+Wrap the result in an Optional to handle the possibility of an empty list.
+Display the maximum value or an appropriate message if the list is empty.
+Test your program with different input lists of integers, including both non-empty and empty lists.
+
+Task 7: Implement a program that searches for a specific word in a list of strings using the Stream API and Optional.
+Requirements:
+Use the Stream API to process the list of strings.
+Use the filter operation to find the first occurrence of the specified word.
+Wrap the result in an Optional to handle the case when the word is not found.
+Display the found word or an appropriate message if it is not found.
+Test your program with different input lists of strings.
+
+Task 8: Create a program that calculates the average length of words in a given sentence using the Stream API and Optional.
+Requirements:
+Use the Stream API to process the words in the sentence.
+Use the mapToInt operation to convert each word to its length.
+Use the average operation to calculate the average length.
+Wrap the result in an Optional to handle the case when the sentence is empty.
+Display the average length or an appropriate message if the sentence is empty.
+Test your program with different input sentences.
+
+Task 9: Write a program that finds the longest word in a list of strings using the Stream API and Optional.
+Requirements:
+Use the Stream API to process the list of strings.
+Use the max operation with a custom comparator to find the longest word.
+Wrap the result in an Optional to handle the case when the list is empty.
+Display the longest word or an appropriate message if the list is empty.
+Test your program with different input lists of strings.
