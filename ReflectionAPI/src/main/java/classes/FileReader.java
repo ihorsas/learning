@@ -1,3 +1,5 @@
+package classes;
+
 public class FileReader {
   private String path;
 
@@ -9,6 +11,7 @@ public class FileReader {
     this.path = path;
   }
 
+  @Readable
   public String read() {
     System.out.println("Reading file");
     if (!path.isEmpty()) {
@@ -19,5 +22,9 @@ public class FileReader {
 
   public void updatePath(String path) {
     this.path = path;
+  }
+
+  public String getPath() {
+    return path;
   }
 }

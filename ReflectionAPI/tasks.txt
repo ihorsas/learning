@@ -1,0 +1,27 @@
+Task 1: Create a program that dynamically loads a class at runtime and invokes a method from that class using the Reflection API.
+Requirements:
+Create a class with a public method that performs a specific action (e.g., printing a message).
+Implement a separate class that uses the Reflection API to load the first class dynamically and invoke its method.
+Test your program to ensure that the method is successfully invoked.
+
+Task2: Write a program that inspects and prints information about the methods of a given class using the Reflection API.
+Requirements:
+Accept the name of a class as input from the user.
+Use the Reflection API to retrieve and inspect the methods of the specified class.
+Print details such as method name, return type, parameter types, and modifiers for each method.
+Test your program with different classes.
+
+Task 3: Develop a program that reads annotations from a class and performs specific actions based on the annotations using the Reflection API.
+Requirements:
+Create a custom annotation and apply it to methods in a class.
+Use the Reflection API to retrieve and inspect the annotations on the methods of the class.
+Perform specific actions based on the presence or values of the annotations (e.g., logging, validation, custom behavior).
+Test your program by applying the annotations to different methods.
+
+Task 4: Write a program that dynamically modifies the value of a private field in a class using the Reflection API.
+Requirements:
+Create a class with a private field and a public getter method.
+Use the Reflection API to access and modify the private field.
+Change the value of the field and verify the modification using the getter method.
+Handle any exceptions that may occur during field modification.
+Test your program by modifying fields in different classes.
