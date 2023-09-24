@@ -1,0 +1,6 @@
+Task: Develop a simple Java application that interacts with a database using JDBC.
+Requirements:
+Create a database table (e.g., "Employee") with relevant fields (e.g., "id," "name," "salary").
+Implement Java classes to represent the table structure (e.g., "Employee" class).
+Write methods to perform basic CRUD operations (Create, Read, Update, Delete) on the database using JDBC.
+Test your application by inserting, retrieving, updating, and deleting records from the database.
