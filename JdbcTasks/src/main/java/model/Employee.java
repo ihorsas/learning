@@ -1,6 +1,8 @@
 package model;
 
-import lombok.*;
+import lombok.Builder;
+import lombok.Data;
+import lombok.ToString;
 
 import java.math.BigDecimal;
 import java.sql.Date;
@@ -10,10 +12,10 @@ import java.sql.Date;
 @Builder
 public class Employee {
 
-  private Integer id;
-  private String name;
-  private BigDecimal salary;
-  private Date hireDate;
-  private String department;
+    private Integer id;
+    private String name;
+    private BigDecimal salary;
+    private Date hireDate;
+    private String department;
 
 }
